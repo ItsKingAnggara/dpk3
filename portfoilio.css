@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    margin: 0; /* Menghilangkan margin default pada body */
+    padding: 0; /* Menghilangkan padding default pada body */
+}
+
+h1 {
+    font-size: 100px;
+    background-color: yellow;
+    margin: 0;
+    
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 0; /* Jarak antar tautan */
+    color: black;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.tugas {
+    font-size: 50px;
+    margin-right: 20px; /* Jarak antara tugas dan gambar */
+}
+
+.container {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    position: relative; /* Untuk positioning absolute pada garis */
+    height: 90vh; /* Mengatur tinggi container sesuai viewport */
+    margin: 0;
+    margin-top: 0;
+    
+}
+
+.kiri {
+    background-color: lightblue; /* Warna latar belakang kiri */
+    width: 35%; /* Lebar bagian kiri */
+    padding: 20px;
+    box-sizing: border-box; /* Agar padding tidak menambah lebar elemen */
+    margin: 0;
+}
+
+.kanan {
+    background-color: greenyellow; /* Warna latar belakang kanan */
+    width: 65%; /* Lebar bagian kanan */
+    padding: 20px;
+    box-sizing: border-box; /* Agar padding tidak menambah lebar elemen */
+    margin: 0;
+}
+
+.gambar img {
+    max-width: 300px; /* Ukuran maksimum gambar */
+    height: auto; /* Memastikan proporsi gambar tetap */
+}
+
+/* Gaya untuk garis vertikal */
+.garis-vertikal {
+    width: 2px; /* Ketebalan garis vertikal */
+    height: 90vh; /* Tinggi garis, bisa diatur sesuai kebutuhan */
+    background-color: black; /* Warna garis */
+    position: absolute; /* Posisi absolute untuk mengatur tempat */
+    left: 35%; /* Posisikan garis di tengah secara horizontal */
+    transform: translateX(-50%); /* Agar garis benar-benar di tengah */
+    margin: 0;
+}
+
+.copyright {
+    background-color: rgb(29, 28, 28);
+    font-size: 30px;
+    color: white;
+}
